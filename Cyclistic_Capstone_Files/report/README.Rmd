@@ -1,0 +1,36 @@
+---
+title: "README"
+output: html_document
+---
+
+# Proyecto Capstone: Análisis de Cyclistic Bikes
+
+## Objetivo del proyecto
+El objetivo de este proyecto es analizar los datos de uso de bicicletas de Cyclistic para entender patrones de comportamiento entre **usuarios casuales** y **miembros suscritos**. Esto permite identificar oportunidades de negocio, mejorar estrategias de marketing y optimizar la gestión de flotas.
+
+## Preguntas de negocio / Problemas a resolver
+1. ¿Cuál es la diferencia en patrones de uso entre usuarios casuales y miembros?
+2. ¿Qué días y horas tienen mayor demanda de bicicletas por tipo de usuario?
+3. ¿Qué tipo de bicicletas son más utilizadas según la categoría de usuario?
+4. ¿Qué recomendaciones se pueden derivar para incentivar la conversión de usuarios casuales a miembros?
+
+## Fuente de los datos
+- Los datos fueron proporcionados por el curso **Google Data Analytics Professional Certificate – Capstone Project**.
+- Formato: CSV
+- Contienen registros de viajes, incluyendo:
+  - Tipo de bicicleta
+  - Fecha y hora de inicio y término
+  - Tipo de usuario (casual o miembro)
+
+## Principales hallazgos
+- Los **usuarios casuales** tienden a usar las bicicletas principalmente los fines de semana, mientras que los **miembros** las usan de manera más consistente durante toda la semana.
+- La hora punta para usuarios casuales es entre las 10:00 y las 18:00, mientras que los miembros presentan picos temprano en la mañana y al final de la jornada laboral.
+- Las bicicletas **eléctricas** son más populares entre miembros, mientras que los usuarios casuales prefieren bicicletas estándar.
+- Recomendación estratégica: implementar campañas específicas para convertir usuarios casuales de fin de semana en miembros mediante incentivos y descuentos.
+
+## Cómo ejecutar el proyecto
+1. **Instalar R y RStudio** (si no lo tienes ya).
+2. **Instalar librerías necesarias**:
+
+```R
+install.packages(c("tidyverse", "lubridate", "ggplot2", "skimr", "janitor"))

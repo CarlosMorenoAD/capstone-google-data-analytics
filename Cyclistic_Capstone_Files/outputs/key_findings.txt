@@ -1,0 +1,10 @@
+HALLAZGOS CLAVE
+
+1. Members representan la mayoría de los viajes (más del 90%), con duración promedio corta (~11 min).
+   Casuals son minoría (~9%), pero realizan viajes mucho más largos (~38 min).
+
+2. Members muestran actividad alta en días laborales, reflejando uso como transporte cotidiano.
+   Casuals concentran sus viajes en fines de semana, reflejando uso recreativo/turístico.
+
+3. Ambos grupos usan principalmente docked_bike.
+   Los registros de 2019 no incluyen tipo de bicicleta, lo que genera valores NA.
